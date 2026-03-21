@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+
 bool canPlace(vector<int>& stalls, int k, int mid) {
     int count = 1;  // first cow placed
     int lastPos = stalls[0];
